@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Surveyform</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
+        <style>
+            mark{
+                color:red;
+                background-color: white;
+            }
+            .yellow-color {
+            color:yellow;
+            
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="row g-3 d-flex" >
+            <div class="col-md-3">
+                <label for="forInput" class="form-label"><b>Name<mark>*</mark> </b></label>
+                <input type="text" class="form-control"  id="forInput">
+                <div>First</div>
+            </div>
+            <div class="col-md-3 align-self-end">
+              <input type="text" class="form-control" aria-label="Last name">
+              <div>Last</div>
+            </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label"><b>Email<mark>*</mark></b></label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="row g-3">
+             <div class="col-md-6">
+                 <label for="rating" class="form-label"><b>Your Experience<mark>*</mark></b></label>
+                 <div>
+                    <span id="boot-icon" class="bi bi-star" style="font-size: 30px; color: rgb(255, 210, 48); opacity: 1; -webkit-text-stroke-width: 0px; box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px inset;"></span>
+                    <span id="boot-icon" class="bi bi-star" style="font-size: 30px; color: rgb(255, 210, 48); opacity: 1; -webkit-text-stroke-width: 0px; box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px inset;"></span>
+                    <span id="boot-icon" class="bi bi-star" style="font-size: 30px; color: rgb(255, 210, 48); opacity: 1; -webkit-text-stroke-width: 0px; box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px inset;"></span>
+                    <span id="boot-icon" class="bi bi-star" style="font-size: 30px; color: rgb(255, 210, 48); opacity: 1; -webkit-text-stroke-width: 0px; box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px inset;"></span>
+                    <span id="boot-icon" class="bi bi-star" style="font-size: 30px; color: rgb(255, 210, 48); opacity: 1; -webkit-text-stroke-width: 0px; box-shadow: rgb(255, 0, 0) 0px 0px 0px 0px inset;"></span>
+                 </div>
+                 <div>Overall, how would you rate your experience with us?</div>
+             </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table caption-top table-borderless table-striped">
+                <caption><b style="color:black">How likely are you to<mark>*</mark></b></caption>
+                <thead>
+                    <tr>
+                        <th class="w-25"></th>
+                        <th style="text-align: center;">Very Unsatisfied</th>
+                        <th style="text-align: center;">Unsatisfied</th>
+                        <th style="text-align: center;">Neutral</th>
+                        <th style="text-align: center;">Satisfied</th>
+                        <th style="text-align: center;">Very Satisfied</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <th scope="row" >Purchase</th>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Service</td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <th scope="row" style="width:10%">Comapny Overall</td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="table caption-top table-borderless table-striped">
+                <caption><b style="color:black">How likely are you to<mark>*</mark></b></caption>
+                <thead>
+                    <tr>
+                        <th class="w-25"></th>
+                        <th style="text-align: center;">Very Unlikely</th>
+                        <th style="text-align: center;">Unlikely</th>
+                        <th style="text-align: center;">Neutral</th>
+                        <th style="text-align: center;">Likely</th>
+                        <th style="text-align: center;">Very Likely</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <th scope="row" >Buy from us again</th>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Recommend our product to others</td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <th scope="row" style="width:10%">Recommend our company to others</td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+          <div class="row">
+              <div class="col align left"><b>Additional comments or suggestions</b></div>
+              <div class="col-12" class="fixed width">
+                  <textarea id="teaxtarea1" rows="5" cols="200"></textarea>
+              </div>     
+          </div>
+          <div class="row">
+              <div class="col align left">
+                  <input type="Submit" value="Submit" onclick="validation()">
+              </div>
+          </div>
+       
+    </body>
+ </html>                    
